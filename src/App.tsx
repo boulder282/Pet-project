@@ -19,6 +19,7 @@ function App() {
   } = useGetAllPostsQuery("", {});
   if (isLoading) return <div>Загрузка...</div>;
   if (isError) return <div>{error.message}</div>;
+  //теперь я тут
 
   const { Content, Footer } = Layout;
 
