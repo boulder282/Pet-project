@@ -4,7 +4,7 @@ import { useGetAllPostsQuery } from "./store/features/api/postApi";
 import { useAppDispatch, useAppSelector } from "./store/hooks/hooks";
 import Head from "./components/header";
 import { Outlet } from "react-router";
-import ContactFooter from "./components/footer/footer";
+import ContactFooter from "./components/footer";
 
 function App() {
   // const count = useAppSelector((state) => state.counter.value);

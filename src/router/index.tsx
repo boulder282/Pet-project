@@ -1,5 +1,7 @@
 import { createBrowserRouter } from "react-router";
 import App from "../App";
+import Cart from "../components/cart";
+import EmptyFavorites from "../components/favorites";
 
 export const router = createBrowserRouter([
   {
@@ -12,11 +14,15 @@ export const router = createBrowserRouter([
       },
       {
         path: "cart",
-        element: <div>cart</div>,
+        element: <Cart />,
       },
       {
         path: ":id",
         element: <div>elId</div>,
+      },
+      {
+        path: "favorites",
+        element: <Favorites />,
       },
     ],
   },

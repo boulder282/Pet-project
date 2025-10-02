@@ -14,8 +14,8 @@ const ContactFooter = () => {
 
         <Col>
           <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
-            <a href="#">Избранное</a>
-            <a href="#">Корзина</a>
+            <a href="favorites">Избранное</a>
+            <a href="cart">Корзина</a>
             <a href="#">Контакты</a>
           </div>
         </Col>
