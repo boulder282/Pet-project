@@ -1,11 +1,10 @@
 import { Button, Flex, Layout, Typography } from "antd";
 import "./App.css";
 import { useGetAllPostsQuery } from "./store/features/api/postApi";
-import { decrement, increment } from "./store/features/counter/counterSlice";
 import { useAppDispatch, useAppSelector } from "./store/hooks/hooks";
-import { HeartOutlined, ShoppingCartOutlined } from "@ant-design/icons";
 import Head from "./components/header";
 import { Outlet } from "react-router";
+import ContactFooter from "./components/footer/footer";
 
 function App() {
   // const count = useAppSelector((state) => state.counter.value);
@@ -29,7 +28,9 @@ function App() {
       <Content>
         <Outlet />
       </Content>
-      <Footer>Footer</Footer>
+      <Footer>
+        <ContactFooter />
+      </Footer>
     </Layout>
   );
 }
