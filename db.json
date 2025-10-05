@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "title": "Чехлы для iPhone",
+    "items": [
+      {
+        "id": 1,
+        "cardName": "Чехол Apple Silicone Case",
+        "like": false,
+        "price": 3990,
+        "rating": 4.5
+      },
+      {
+        "id": 2,
+        "cardName": "Чехол Spigen Ultra Hybrid",
+        "like": false,
+        "price": 1890,
+        "rating": 4.7
+      },
+      {
+        "id": 3,
+        "cardName": "Чехл OtterBox Defender",
+        "like": false,
+        "price": 2990,
+        "rating": 4.8
+      },
+      {
+        "id": 4,
+        "cardName": "Кожаный чехол Apple Leather Case",
+        "like": false,
+        "price": 4990,
+        "rating": 4.6
+      },
+      {
+        "id": 5,
+        "cardName": "Чехол Casetify Impact Case",
+        "like": false,
+        "price": 3290,
+        "rating": 4.4
+      },
+      {
+        "id": 6,
+        "cardName": "Чехл ESR Metal Kickstand",
+        "like": false,
+        "price": 1590,
+        "rating": 4.3
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Наушники для iPhone",
+    "items": [
+      {
+        "id": 7,
+        "cardName": "Apple EarPods с разъемом Lightning",
+        "like": false,
+        "price": 1990,
+        "rating": 4.2
+      },
+      {
+        "id": 8,
+        "cardName": "Beats Flex",
+        "like": false,
+        "price": 5990,
+        "rating": 4.5
+      },
+      {
+        "id": 9,
+        "cardName": "Belkin Lightning Audio + Charge",
+        "like": false,
+        "price": 2490,
+        "rating": 4.0
+      },
+      {
+        "id": 10,
+        "cardName": "JBL Reflect Aware",
+        "like": false,
+        "price": 8990,
+        "rating": 4.6
+      },
+      {
+        "id": 11,
+        "cardName": "Sennheiser IE 80S",
+        "like": false,
+        "price": 19990,
+        "rating": 4.8
+      },
+      {
+        "id": 12,
+        "cardName": "Audio-Technica ATH-CKS50",
+        "like": false,
+        "price": 6990,
+        "rating": 4.4
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Беспроводные наушники",
+    "items": [
+      {
+        "id": 13,
+        "cardName": "Apple AirPods 3",
+        "like": false,
+        "price": 17990,
+        "rating": 4.9
+      },
+      {
+        "id": 14,
+        "cardName": "Apple AirPods Pro 2",
+        "like": false,
+        "price": 24990,
+        "rating": 4.9
+      },
+      {
+        "id": 15,
+        "cardName": "Apple AirPods Max",
+        "like": false,
+        "price": 59990,
+        "rating": 4.7
+      },
+      {
+        "id": 16,
+        "cardName": "Beats Fit Pro",
+        "like": false,
+        "price": 19990,
+        "rating": 4.6
+      },
+      {
+        "id": 17,
+        "cardName": "Beats Studio Buds",
+        "like": false,
+        "price": 14990,
+        "rating": 4.5
+      },
+      {
+        "id": 18,
+        "cardName": "Beats Powerbeats Pro",
+        "like": false,
+        "price": 21990,
+        "rating": 4.4
+      }
+    ]
+  }
+]

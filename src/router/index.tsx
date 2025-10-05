@@ -1,7 +1,8 @@
 import { createBrowserRouter } from "react-router";
 import App from "../App";
 import Cart from "../components/cart";
-import EmptyFavorites from "../components/favorites";
+import Favorites from "../components/favorites";
+import CardBox from "../components/cardBox";
 
 export const router = createBrowserRouter([
   {
@@ -10,7 +11,7 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <div>el1</div>,
+        element: <div>Хуй</div>,
       },
       {
         path: "cart",
